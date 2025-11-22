@@ -21,7 +21,7 @@ cat_count = {"billing": 0, "support": 0, "product": 0, "service": 0, "account": 
 pos = neg = neu = 0
 
 # Load sample data (your processed parquet file)
-df = pd.read_parquet("complaintpro/data/processed/complaints.parquet").sample(20)
+df = pd.read_parquet("comppro/Data/processed/complaints.parquet").sample(20)
 
 # UI containers
 live = st.empty()
